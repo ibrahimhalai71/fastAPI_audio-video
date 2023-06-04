@@ -1,9 +1,9 @@
 import boto3
 
-BUCKET_NAME = "staging-web-capella-audio" 
+BUCKET_NAME = "BUCKET_NAME" 
 REGION = "us-east-1"
-ACCESS_KEY = "AKIA5B3MF4AFXWZ5I6NE"
-SECRET_KEY = "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"
+ACCESS_KEY = "ACCESS_KEY"
+SECRET_KEY = "SECRET_KEY"
 
 class AWSS3:
     def __init__(self):
